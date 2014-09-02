@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BluetoothDemo</string>
+    <string name="title_activity_my">MyActivity</string>
+
+</resources>
