@@ -25,9 +25,16 @@ Demo of a clean and robust way to interface Android and Arduino devices over a B
  * For Arduino, set the RX and TX pin numbers you wired up.
  * Load the Android app, the Arduino sketch, and hit Connect.
 
+**Files to look at:**
+
+ * `BluetoothThread.java`
+ * `BluetoothActivity.java`
+ * `activity_bluetooth.xml`
+ * `bluetooth_demo.ino`
+
 **Issues:**
 
  * Bluetooth socket still fails to connect once in a while (my hardware?)
  * Can't seem to get higher than 19200 bps with SoftwareSerial
  * Connected/disconnected events in Android should have their own message types
- * Handle arbitrary data (delimiter) by implementing escape character (possibly overkill)
+ * Handle arbitrary data (delimiter) by implementing escaping (possibly overkill)
