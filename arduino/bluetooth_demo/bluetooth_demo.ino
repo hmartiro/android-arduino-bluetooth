@@ -46,7 +46,7 @@ void set_bluetooth_baudrate() {
   delay(100);
   
   // Change the baudrate to 19200 bps
-  // 115200 is usually to fast for SoftwareSerial to read data reliably
+  // 115200 is usually too fast for SoftwareSerial to read data properly
   bluetooth.println("SU,19");
 }
 
